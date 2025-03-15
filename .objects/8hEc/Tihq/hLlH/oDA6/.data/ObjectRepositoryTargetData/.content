@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LagTcwi-I0SmsIr_dlZJhQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="finance.yahoo.com/quote/QSI" CVScreenId="f437d993-c5ce-4033-8b18-45fea9d73dcc" DesignTimeRectangle="1461, 820, 229, 24" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;webctrl parentid='nimbus-app' tag='LI' innertext='Earnings Date*' /&gt;" Guid="1e33de9a-4dee-42de-961f-3c6e6e60f07d" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Yahoo Finance*' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3ecb58c08f3463c6d48129e190a4deca.png" xmlns="">0JpjvRw94J0aJ2FUnqOz__A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

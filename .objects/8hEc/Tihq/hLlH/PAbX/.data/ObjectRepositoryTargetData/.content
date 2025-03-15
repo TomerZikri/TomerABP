@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cLxMMLHsR0WsPiTQNoJl2g" Reference="y-Fzx3VSGkCmvLqZ9SrS6w/PAbXTE9eSEitHLKA3ha0pw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="finance.yahoo.com/quote/QSI" CVScreenId="13b6411e-38f3-4459-bae9-e001388e10d1" CvTextArea="679, 355, 240, 14" CvType="AnyWordGroup" DesignTimeRectangle="680, 352, 238, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl parentid='nimbus-app' tag='SPAN' aaname='   ' /&gt;" Guid="6e563643-b5bd-42e7-8a30-424857cfd548" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Yahoo Finance*' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="d273a79e38c1a7d771cd0ec6a8a83c70.png" xmlns="">0VlNG3VxRzE6fcYcFJjxQKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

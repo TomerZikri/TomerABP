@@ -1,0 +1,13 @@
+﻿{
+  "Name": "NasdaqGM - Nasdaq Real …",
+  "Type": "Element",
+  "Id": "PAbXTE9eSEitHLKA3ha0pw",
+  "Reference": "y-Fzx3VSGkCmvLqZ9SrS6w/PAbXTE9eSEitHLKA3ha0pw",
+  "ParentRef": "y-Fzx3VSGkCmvLqZ9SrS6w/hLlHDSY0DkaGUrmYHMK0FA",
+  "Created": "2025-03-15T14:15:19.5852978Z",
+  "Updated": "2025-03-15T14:15:19.5852978Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

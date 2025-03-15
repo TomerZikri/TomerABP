@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Earnings Date May 7, 20…",
+  "Type": "Element",
+  "Id": "oDA6HHNfHkienANCAlztwA",
+  "Reference": "y-Fzx3VSGkCmvLqZ9SrS6w/oDA6HHNfHkienANCAlztwA",
+  "ParentRef": "y-Fzx3VSGkCmvLqZ9SrS6w/hLlHDSY0DkaGUrmYHMK0FA",
+  "Created": "2025-03-15T14:16:59.8630729Z",
+  "Updated": "2025-03-15T14:16:59.8630729Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
