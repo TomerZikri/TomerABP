@@ -149,13 +149,13 @@
       <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="2495,780.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="2493,778.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="2495,780.04" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="2493,778.04" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="x:String" Name="str_reportsFolder" />
         <Variable x:TypeArguments="x:String" Name="str_report" />
@@ -399,8 +399,7 @@
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="418,173" sap2010:WorkflowViewState.IdRef="LogMessage_14" Message="[&quot;Starting sequence Send Mail&quot;]" />
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="418,173" sap2010:WorkflowViewState.IdRef="LogMessage_19" Message="[&quot;Sending mail to - &quot; + in_str_mailTo]" />
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="418,173" sap2010:WorkflowViewState.IdRef="LogMessage_14" Message="[&quot;Starting sequence Send Mail&quot; + Environment.NewLine + &quot;Sending mail to - &quot; + in_str_mailTo]" />
                               <If Condition="[String.IsNullOrEmpty(str_exceptionMessage)]" DisplayName="If exception message is empty" sap:VirtualizedContainerService.HintSize="418,1529" sap2010:WorkflowViewState.IdRef="If_4">
                                 <If.Then>
                                   <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,548" sap2010:WorkflowViewState.IdRef="Sequence_17">
@@ -466,7 +465,7 @@
                             <av:PointCollection x:Key="ConnectorLocation">755,370 890,370 890,445</av:PointCollection>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence sap2010:Annotation.AnnotationText="Creating analysis report Excel file and sheets" DisplayName="Create Analysis Report" sap:VirtualizedContainerService.HintSize="452,2232" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <Sequence sap2010:Annotation.AnnotationText="Creating analysis report Excel file and sheets" DisplayName="Create Analysis Report" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_7">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="sd:DataTable" Name="dt_USD" />
                             <Variable x:TypeArguments="sd:DataTable" Name="dt_nonUSD" />
@@ -477,7 +476,7 @@
                               <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="418,173" sap2010:WorkflowViewState.IdRef="LogMessage_11" Message="[&quot;Starting sequence Create Analysis Report&quot;]" />
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="418,173" sap2010:WorkflowViewState.IdRef="LogMessage_11" Message="[&quot;Starting sequence Create Analysis Report&quot; + Environment.NewLine + &quot;Creating the required Excel files and sheets&quot;]" />
                           <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_trendingData]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="418,148" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Stocks Table" WorkbookPath="[str_report]" />
                           <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_trendingData.AsEnumerable.Where(Function(row) Convert.ToDouble(row(&quot;Change %&quot;).ToString.Replace(&quot;%&quot;, &quot;&quot;)) &gt;2).CopyToDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="418,148" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="Top Movers" WorkbookPath="[str_report]" />
                           <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_trendingData.AsEnumerable.Where(Function(row) Convert.ToDouble(row(&quot;Change %&quot;).ToString.Replace(&quot;%&quot;, &quot;&quot;)) &gt;2).CopyToDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="418,148" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="Top Movers" WorkbookPath="[str_report]" />
@@ -546,7 +545,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,164" sap2010:WorkflowViewState.IdRef="LogMessage_25" Message="[&quot;No stocks with earnings date for today or within the range!&quot;]" />
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,164" sap2010:WorkflowViewState.IdRef="LogMessage_25" Message="[&quot;No stocks with earnings date for today or within the range&quot;]" />
                               </Sequence>
                             </If.Else>
                           </If>
